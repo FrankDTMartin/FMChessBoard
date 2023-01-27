@@ -1,0 +1,149 @@
+*{
+    box-sizing:border-box ;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(125, 125, 127);
+    color: rgb(125, 255, 255);
+}
+main{
+  margin: 0;
+}
+.hea{
+  text-align: center;
+  color: #000;
+  width: 95%;
+  margin: 5px auto 0;
+  background-color: rgba(0, 120, 127, .5);
+  border-radius: .5em;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+  //box-shadow:3px 3px 3px 0 rgb(255, 255, 255);
+}
+.boder{
+  border: 8px groove teal;
+  width: 95%;
+//  height: 22em;
+  //padding-top: .6em;
+  margin: 0 auto;
+  background-color: red;
+}
+.container2{
+  background-color: blue;
+  width: 3%;
+  margin-left: .5em;
+  height: 20.8em;
+  display: flex;
+  float: left;
+  flex-direction: column;
+ // margin: 0;
+  padding: 0;
+}
+/*.container3{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  max-width: 500;
+  min-width: 300;
+  //height: 3px;
+  margin-left: 10px;
+ // float: left;
+}*/
+.container3 > .dark{
+  height: 13px;
+}
+.container3 > .light{
+  height: 13px;
+}
+.container2 > .dark{
+  //background-color: ;
+  //height: 40px;
+  width: 100%;
+}
+.container2 > .light{
+  //background-color: white;
+  //height: 40px;
+  width: 100%;
+}
+.container, .container1, .container3{
+    width: 100%;
+    max-width: 500;
+    min-width: 300;
+    max-height: 500vh;
+    background-color: aqua;
+    margin:0 auto ;
+    //margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    //float: left;
+    //justify-content: space-evenly;
+}
+.container{
+    flex-direction: row-reverse;
+}
+
+.light, .dark{
+    width: 12.5%;
+    max-width: 62.5;
+    min-width: 37.5;
+    height: 40px;
+    max-height: 62;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.whitpeac{
+  color: blue;
+ // transform: rotate(180deg);
+  width: 85%;
+  margin: auto;
+  padding: 0;
+  height: 35px;
+  display: block;
+}
+.blacpeac{
+  color: green;
+  //background-color: teal;
+  transform: rotate(180deg);
+  width: 85%;
+  height: 35px;
+  display: block;
+ // margin-left: auto;
+ // margin-right: auto;
+ margin: auto;
+ padding: 0;
+  
+}
+.king{
+  width: 100%;
+  min-width: 37.5;
+  height: 90%;
+}
+p{
+  display: inline;
+  float: right;
+}
+.hpic{
+  float: left;
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+}
+.tex{
+  color: black;
+  font-size: 2px;
+  display: inline;
+  float: left;
+  margin: 0;
+  margin-bottom: 50%;
+}
+
+.dark{
+    background-color: #228965;
+    color: white;
+}
